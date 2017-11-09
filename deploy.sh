@@ -2,4 +2,4 @@
 
 set -x
 
-cat $HOME/cache/$CI_BRANCH_NAME.txt
+cat $HOME/cache/$CI_BRANCH.txt
