@@ -2,4 +2,4 @@
 
 set -x
 
-echo $CI_BRANCH > $HOME/cache/$CI_BRANCH.txt
+echo $CI_BUILD_NUMBER > $HOME/cache/$CI_BUILD_NUMBER.txt
